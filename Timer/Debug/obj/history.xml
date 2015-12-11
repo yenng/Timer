@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -DSTM32F427_437xx -I..\..\..\..\..\..\..\Desktop\timer -I..\..\..\..\..\..\..\Desktop\timer\Core -I..\..\..\..\..\..\..\Desktop -I..\..\..\..\..\..\..\Desktop\timer\Apps -I..\..\..\..\..\..\..\Desktop\timer\Config">
+      <target file="timer.o" lastModified="1517b789d63">
+         <source file="..\..\..\Apps\timer.c" lastModified="1517b783bbe"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1517b789ef9">
+         <source file="..\..\..\Config\system_stm32f4xx.c" lastModified="1517a9c8d1f"/>
+      </target>
+      <target file="main.o" lastModified="1517b789e2e">
+         <source file="..\..\..\Apps\main.c" lastModified="1517b74fde7"/>
+      </target>
+      <target file="startup_stm32f429xx.o" lastModified="1517b789e4d">
+         <source file="..\..\..\Config\startup_stm32f429xx.s" lastModified="1517a9c8cc2"/>
+      </target>
+      <target file="Rcc.o" lastModified="1517b789db1">
+         <source file="..\..\..\Apps\Rcc.c" lastModified="1517b619db4"/>
+      </target>
+   </processor>
+</history>
