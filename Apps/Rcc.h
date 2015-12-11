@@ -46,6 +46,9 @@ struct RCC_Type{
 	volatile uint32_t DCKCFGR;
 };
 
+#define GPIOx_ENABLE_CLOCK(x)	(0x00100000 | (1 << (x)))
+#define GPIOx_RESET(x)			  (1 << (x))
+
 void timerUnresetEnableClock();
 
 #endif //__Rcc_H__
