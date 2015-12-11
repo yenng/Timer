@@ -21,22 +21,10 @@ int main(void)
 
 
 	//config GPIO
-	configureOutput(GPIO_SPEED_V_HIGH,PIN_4,PORTA);
-	configureOutput(GPIO_SPEED_V_HIGH,PIN_8,PORTA);
-	configureOutput(GPIO_SPEED_V_HIGH,PIN_10,PORTA);
-	configureOutput(GPIO_SPEED_V_HIGH,PIN_12,PORTA);
-	configureOutput(GPIO_SPEED_V_HIGH,PIN_14,PORTA);
+	configureOutput(GPIO_SPEED_HIGH,PIN_4,PORTA);
 	while(1){
 		writeOne(PIN_4,PORTA);
-		writeOne(PIN_8,PORTA);
-		writeOne(PIN_10,PORTA);
-		writeOne(PIN_12,PORTA);
-		writeOne(PIN_14,PORTA);
 		writeZero(PIN_4,PORTA);
-		writeZero(PIN_8,PORTA);
-		writeZero(PIN_10,PORTA);
-		writeZero(PIN_12,PORTA);
-		writeZero(PIN_14,PORTA);
 	}
 /*
     while(1){

@@ -76,10 +76,10 @@
     <File name="Core/core_cm7.h" path="Core/core_cm7.h" type="1"/>
     <File name="Core/core_cmFunc.h" path="Core/core_cmFunc.h" type="1"/>
     <File name="Config/stm32f429xx.h" path="Config/stm32f429xx.h" type="1"/>
-    <File name="Apps/Gpio.h" path="Apps/Gpio.h" type="1"/>
     <File name="Core/core_sc300.h" path="Core/core_sc300.h" type="1"/>
-    <File name="Apps/Gpio.c" path="Apps/Gpio.c" type="1"/>
+    <File name="Apps/Gpio.h" path="Apps/Gpio.h" type="1"/>
     <File name="Apps/Rcc.c" path="Apps/Rcc.c" type="1"/>
+    <File name="Apps/Gpio.c" path="Apps/Gpio.c" type="1"/>
     <File name="Core/core_cmSimd.h" path="Core/core_cmSimd.h" type="1"/>
     <File name="Config/system_stm32f4xx.h" path="Config/system_stm32f4xx.h" type="1"/>
     <File name="Config/stm32f4xx.h" path="Config/stm32f4xx.h" type="1"/>
@@ -91,9 +91,9 @@
     <File name="Core/core_cm0.h" path="Core/core_cm0.h" type="1"/>
     <File name="Core/core_cm3.h" path="Core/core_cm3.h" type="1"/>
     <File name="Apps/Rcc.h" path="Apps/Rcc.h" type="1"/>
-    <File name="Apps/timer.h" path="Apps/timer.h" type="1"/>
-    <File name="Core" path="" type="2"/>
     <File name="Core/core_sc000.h" path="Core/core_sc000.h" type="1"/>
+    <File name="Core" path="" type="2"/>
+    <File name="Apps/timer.h" path="Apps/timer.h" type="1"/>
     <File name="Apps/main.c" path="Apps/main.c" type="1"/>
     <File name="Config" path="" type="2"/>
   </Files>
