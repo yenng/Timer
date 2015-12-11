@@ -3,6 +3,11 @@
 #include "Rcc.h"
 #include "Gpio.h"
 
+void delay(int count){
+	while(count>0)
+		count--;
+}
+
 int main(void)
 {
 	uint32_t value = 0X0010;
@@ -21,21 +26,26 @@ int main(void)
 
 
 	//config GPIO
-	configureOutput(GPIO_SPEED_HIGH,PIN_4,PORTA);
-	while(1){
-		writeOne(PIN_4,PORTA);
-		writeZero(PIN_4,PORTA);
-	}
-/*
+	configureOutput(GPIO_SPEED_HIGH,PIN_15,PORTG);
+	configureOutput(GPIO_SPEED_HIGH,PIN_13,PORTG);
+/*	while(1){
+		writeOne(PIN_15,PORTG);
+		writeOne(PIN_13,PORTG);
+		delay(1000000);
+		writeZero(PIN_15,PORTG);
+		writeZero(PIN_13,PORTG);
+		delay(10000000);
+	}*/
+
     while(1){
     	while(TIM2->CNT < 255){
         	counterValue = TIM2->CNT;
     	}
     	counterTrig = !counterTrig;
     	if(counterTrig == 1)
-    		writeOne(PIN_4,PORTA);
+    		writeOne(PIN_15,PORTG);
     	else
-    		writeZero(PIN_4,PORTA);
+    		writeZero(PIN_15,PORTG);
     }
-    */
+
 }

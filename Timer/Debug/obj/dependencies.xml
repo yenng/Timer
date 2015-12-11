@@ -19,10 +19,6 @@
       <source file="..\..\..\Config\stm32f4xx_hal_rcc_ex.h" lastModified="1518f460cb9">
          <include file="..\..\..\Config\stm32f4xx_hal_def.h"/>
       </source>
-      <source file="..\..\..\Apps\Rcc.c" lastModified="1518f7acae7">
-         <include file="..\..\..\Apps\Rcc.h"/>
-         <include file="..\..\..\Apps\Gpio.h"/>
-      </source>
       <source file="..\..\..\Config\system_stm32f4xx.h" lastModified="1518f460cbc">
       </source>
       <source file="..\..\..\Apps\Gpio.h" lastModified="1518f6be775">
@@ -87,7 +83,7 @@
       </source>
       <source file="..\..\..\Config\startup_stm32f429xx.s" lastModified="1518f460c94">
       </source>
-      <source file="..\..\..\Apps\main.c" lastModified="1518fe45fd3">
+      <source file="..\..\..\Apps\main.c" lastModified="151909d74ac">
          <include file="..\..\..\Config\stm32f4xx.h"/>
          <include file="..\..\..\Apps\timer.h"/>
          <include file="..\..\..\Apps\Rcc.h"/>
