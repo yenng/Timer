@@ -3,18 +3,42 @@
 #include "Rcc.h"
 #include "Gpio.h"
 
-void delay(int count){
-	while(count>0)
-		count--;
+uint32_t value = 0X0000;
+uint32_t prescaler = 0X0002;
+uint32_t preloadValue = 0x003F;
+
+int triggerOutputPin(int counterTrig){
+	counterTrig = !counterTrig;
+	if(counterTrig == 1)
+		writeOne(PIN_15,PORTG);
+	else
+		writeZero(PIN_15,PORTG);
+	return counterTrig;
 }
 
+int testARRchangesWithBuffer(){
+	int counterTrig = 0;
+	uint32_t counterValue;
+	uint32_t ARRValue = preloadValue;
+	while(1){
+		while(ARRValue == 63){
+			while(TIM2->CNT < 63){
+				if(TIM2->CNT == 50)
+					ARRValue = 0x00FF;
+				counterValue = TIM2->CNT;
+			}
+			counterTrig = triggerOutputPin(counterTrig);
+		}
+		writeValueToPreloadRegister(ARRValue, TIM2);
+		if(ARRValue == 255){
+			while(TIM2->CNT < 255){
+				counterValue = TIM2->CNT;}
+			counterTrig = triggerOutputPin(counterTrig);
+		}
+	}
+}
 int main(void)
 {
-	uint32_t value = 0X0010;
-	uint32_t prescaler = 0XFFFF;
-	uint32_t preloadValue = 0X00FF;
-	uint32_t counterValue;
-	int counterTrig = 0;
 
 
 	//config timer
@@ -27,25 +51,7 @@ int main(void)
 
 	//config GPIO
 	configureOutput(GPIO_SPEED_HIGH,PIN_15,PORTG);
-	configureOutput(GPIO_SPEED_HIGH,PIN_13,PORTG);
-/*	while(1){
-		writeOne(PIN_15,PORTG);
-		writeOne(PIN_13,PORTG);
-		delay(1000000);
-		writeZero(PIN_15,PORTG);
-		writeZero(PIN_13,PORTG);
-		delay(10000000);
-	}*/
-
-    while(1){
-    	while(TIM2->CNT < 255){
-        	counterValue = TIM2->CNT;
-    	}
-    	counterTrig = !counterTrig;
-    	if(counterTrig == 1)
-    		writeOne(PIN_15,PORTG);
-    	else
-    		writeZero(PIN_15,PORTG);
-    }
-
+	while(1){
+		testARRchangesWithBuffer();
+	}
 }

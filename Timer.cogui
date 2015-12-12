@@ -22,14 +22,13 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/D203C-01/Desktop/yen/timer/Apps/main.c" title="main.c" tooltip="C:/Users/D203C-01/Desktop/yen/timer/Apps/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1004" selectionTopPixel="209"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="977" selectionTopPixel="239"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="timer.h" partName="timer.h" path="C:/Users/D203C-01/Desktop/yen/timer/Apps/timer.h" title="timer.h" tooltip="C:/Users/D203C-01/Desktop/yen/timer/Apps/timer.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/timer.h"/>
@@ -53,11 +52,7 @@
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" partName="Gpio.c" path="C:/Users/D203C-01/Desktop/yen/timer/Apps/Gpio.c" title="Gpio.c" tooltip="C:/Users/D203C-01/Desktop/yen/timer/Apps/Gpio.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/Gpio.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1474" selectionTopPixel="420"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" partName="startup_stm32f429xx.s" path="C:/Users/D203C-01/Desktop/yen/timer/Config/startup_stm32f429xx.s" title="startup_stm32f429xx.s" tooltip="C:/Users/D203C-01/Desktop/yen/timer/Config/startup_stm32f429xx.s" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Config/startup_stm32f429xx.s"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2534" selectionTopPixel="885"/>
 </editor>
 </editors>
 <views>
@@ -115,8 +110,8 @@
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
 <hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
@@ -207,8 +202,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.coocox.builder.ui.build"/>
 <hide_toolbar_item_id id="org.coocox.welcome.ui.action.welcome"/>
-<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <hide_toolbar_item_id id="org.coocox.codebugger.configuration.coideProgramDownloadAction"/>
+<hide_toolbar_item_id id="org.coocox.component.ui.ShowRepositoryAction"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.coocox.codebugger.trace.ui.traceview"/>
@@ -233,7 +228,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@126d8d3" ratio="0.69977427" ratioLeft="620" ratioRight="266" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
@@ -274,163 +269,160 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/timer.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Gpio.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Gpio.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Timer/Config/startup_stm32f429xx.s"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Rcc.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Timer/Config/startup_stm32f429xx.s"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Rcc.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Timer/Config/startup_stm32f429xx.s"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/timer.h"/>
 </editors>
-<item historyLabel="Gpio.h" index="2">
-<position info="not_deleted" x="1518" y="7"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="455" y="0"/>
 </item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="824" y="54"/>
+<item historyLabel="timer.c" index="1">
+<position info="not_deleted" x="704" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="560" y="0"/>
+<position info="not_deleted" x="526" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="625" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2494" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2534" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="652" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2494" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2534" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="652" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="493" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="124" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="774" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="625" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2494" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2534" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="511" y="0"/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="625" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2494" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="2534" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="625" y="0"/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="513" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
+<item historyLabel="Gpio.c" index="2">
 <position info="not_deleted" x="1440" y="0"/>
 </item>
-<item historyLabel="Rcc.c" index="4">
-<position/>
-</item>
-<item historyLabel="Rcc.c" index="4">
-<position/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="160" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="513" y="0"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
-<position info="not_deleted" x="1440" y="0"/>
-</item>
-<item historyLabel="Rcc.c" index="4">
+<item historyLabel="Rcc.c" index="3">
 <position info="not_deleted" x="213" y="0"/>
 </item>
-<item historyLabel="Rcc.c" index="4">
+<item historyLabel="Rcc.c" index="3">
 <position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="Rcc.c" index="4">
-<position/>
-</item>
-<item historyLabel="Rcc.c" index="4">
+<item historyLabel="Rcc.c" index="3">
 <position info="not_deleted" x="319" y="0"/>
 </item>
-<item historyLabel="Rcc.c" index="4">
-<position/>
-</item>
-<item historyLabel="Rcc.c" index="4">
+<item historyLabel="Rcc.c" index="3">
 <position info="not_deleted" x="373" y="0"/>
 </item>
-<item historyLabel="Rcc.h" index="6">
-<position info="not_deleted" x="1230" y="0"/>
-</item>
-<item historyLabel="Rcc.c" index="4">
-<position info="not_deleted" x="371" y="3"/>
-</item>
-<item historyLabel="Gpio.c" index="1">
+<item historyLabel="Gpio.c" index="2">
 <position info="not_deleted" x="1474" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="513" y="0"/>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="1553" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1002" y="0"/>
-</item>
-<item historyLabel="Rcc.c" index="4">
-<position info="not_deleted" x="371" y="0"/>
+<position info="not_deleted" x="587" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1002" y="0"/>
+<position info="not_deleted" x="603" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="832" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="863" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="887" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="2494" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="2">
+<position info="not_deleted" x="2534" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="952" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="982" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="587" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="603" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="832" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="790" y="0"/>
+</item>
+<item historyLabel="timer.h" index="4">
+<position info="not_deleted" x="886" y="0"/>
 </item>
 <item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="160" y="0"/>
+<position info="not_deleted" x="977" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -439,17 +431,22 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" tooltip="Timer/Apps/timer.c">
+<persistable path="/Timer/Apps/timer.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" tooltip="Timer/Config/startup_stm32f429xx.s">
 <persistable path="/Timer/Config/startup_stm32f429xx.s"/>
+</file>
+<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
+<persistable>
+<org.coocox.welcome.ui.WelcomePage/>
+</persistable>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Rcc.c" tooltip="Timer/Apps/Rcc.c">
 <persistable path="/Timer/Apps/Rcc.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" tooltip="Timer/Apps/Gpio.c">
 <persistable path="/Timer/Apps/Gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" tooltip="Timer/Apps/timer.c">
-<persistable path="/Timer/Apps/timer.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="Timer/Config/stm32f4xx.h">
 <persistable path="/Timer/Config/stm32f4xx.h"/>
