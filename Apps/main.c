@@ -17,6 +17,8 @@ int triggerOutputPin(int counterTrig){
 }
 
 int testARRchangesWithBuffer(){
+	//setting of TIM->CR1
+	//timer->CR1 = CNT_ENABLE | URS_ENABLE | UDIS_DISABLE | NO_BUFFERED | COUNTUP | EDGE | NO_ONE_PULSE | DIV_1;
 	int counterTrig = 0;
 	uint32_t counterValue;
 	uint32_t ARRValue = preloadValue;
@@ -37,6 +39,7 @@ int testARRchangesWithBuffer(){
 		}
 	}
 }
+
 int main(void)
 {
 
