@@ -11,6 +11,10 @@ void configTIM(TIM_t* timer){
 	timer->CR2 = RESET;
 }
 
+void configInputCapture(TIM_t* timer){}
+
+void configOutputCompare(TIM_t* timer){}
+
 void timerEnableDMA(TIM_t* timer){
 
 }
