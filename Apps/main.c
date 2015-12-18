@@ -40,12 +40,10 @@ int testARRchangesWithBuffer(){
 	}
 }
 
-int main(void)
-{
-
-
+int main(void){
 	//config timer
 	configTIM(TIM2);
+	configUSART(USART1);
 	resetStatusRegisterFlag(TIM2);
 	writeValueToCounter(value, TIM2);
 	setPrescaler(prescaler, TIM2);
@@ -54,7 +52,9 @@ int main(void)
 
 	//config GPIO
 	configureOutput(GPIO_SPEED_HIGH,PIN_15,PORTG);
+	configureAltFunc(PULL_UP,PIN_9,PORTA);
 	while(1){
-		testARRchangesWithBuffer();
+		//testARRchangesWithBuffer();
+		USART1->DR |= 0x01;
 	}
 }

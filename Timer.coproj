@@ -71,6 +71,7 @@
   <Components path="./"/>
   <LocalComponents/>
   <Files>
+    <File name="Apps/USART.c" path="Apps/USART.c" type="1"/>
     <File name="Apps/timer.c" path="Apps/timer.c" type="1"/>
     <File name="Core/core_cm0plus.h" path="Core/core_cm0plus.h" type="1"/>
     <File name="Core/core_cm7.h" path="Core/core_cm7.h" type="1"/>
@@ -86,14 +87,15 @@
     <File name="Core/core_cmInstr.h" path="Core/core_cmInstr.h" type="1"/>
     <File name="Apps" path="" type="2"/>
     <File name="Config/system_stm32f4xx.c" path="Config/system_stm32f4xx.c" type="1"/>
+    <File name="Apps/USART.h" path="Apps/USART.h" type="1"/>
     <File name="Core/core_cm4.h" path="Core/core_cm4.h" type="1"/>
     <File name="Config/startup_stm32f429xx.s" path="Config/startup_stm32f429xx.s" type="1"/>
     <File name="Core/core_cm0.h" path="Core/core_cm0.h" type="1"/>
     <File name="Core/core_cm3.h" path="Core/core_cm3.h" type="1"/>
     <File name="Apps/Rcc.h" path="Apps/Rcc.h" type="1"/>
+    <File name="Core/core_sc000.h" path="Core/core_sc000.h" type="1"/>
     <File name="Apps/timer.h" path="Apps/timer.h" type="1"/>
     <File name="Core" path="" type="2"/>
-    <File name="Core/core_sc000.h" path="Core/core_sc000.h" type="1"/>
     <File name="Apps/main.c" path="Apps/main.c" type="1"/>
     <File name="Config" path="" type="2"/>
   </Files>

@@ -31,6 +31,9 @@ void configureAltFunc(int pullMeth, int pinNum, GPIO *port){
 	port->MODER |= GPIO_MODE_ALTFUNC << (pinNum*2);
 	port->PUPDR &= ~(3 << (pinNum*2));		//MASK PUPDR reg and CLEAR selected bits
 	port->PUPDR |= pullMeth << (pinNum*2);
+	port->OSPEED &= ~(3 << (pinNum*2));
+	port->OSPEED |= GPIO_SPEED_V_HIGH << (pinNum*2);
+	port->AFRH |= (7 << 4);
 }
 
 /**

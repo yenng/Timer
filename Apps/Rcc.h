@@ -50,5 +50,6 @@ struct RCC_Type{
 #define GPIOx_RESET(x)			  (1 << (x))
 
 void timerUnresetEnableClock();
+void usartUnresetEnableClock();
 
 #endif //__Rcc_H__

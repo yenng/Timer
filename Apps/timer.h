@@ -61,6 +61,8 @@ struct TIM_Type{
 #define	DIV_4		2<<8
 #define RES_CLK_DIV		3<<8
 /****************************************************************/
+/************BITS OF capture/compare mode register 1*************/
+
 
 
 void configTIM(TIM_t* timer);

@@ -11,7 +11,9 @@ void configTIM(TIM_t* timer){
 	timer->CR2 = RESET;
 }
 
-void configInputCapture(TIM_t* timer){}
+void configInputCapture(TIM_t* timer){
+	timer->CCMR1 = 1;
+}
 
 void configOutputCompare(TIM_t* timer){}
 

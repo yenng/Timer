@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="4.9.3 -mcpu=cortex-m4 -mthumb -g2 -Map=Timer.map -O0 --gc-sections -LC:/Users/D203C-01/Desktop/yen/timer -TC:/Users/D203C-01/Desktop/yen/timer/stm32f429zi_flash.ld -g">
-      <target file="Timer.elf" lastModified="1519577f783">
-         <source file="..\obj\timer.o" lastModified="1519577f2bb"/>
-         <source file="..\obj\Gpio.o" lastModified="1519577f517"/>
-         <source file="..\obj\Rcc.o" lastModified="1519577f31f"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="1519577f461"/>
-         <source file="..\obj\startup_stm32f429xx.o" lastModified="1519577f3b5"/>
-         <source file="..\obj\main.o" lastModified="1519577f3a1"/>
+   <processor signature="4.9.3 -mcpu=cortex-m4 -mthumb -g2 -Map=Timer.map -O0 --gc-sections -LC:/Users/D203C-01/Desktop/yen/Timer -TC:/Users/D203C-01/Desktop/yen/Timer/stm32f429zi_flash.ld -g">
+      <target file="Timer.elf" lastModified="151b481bd0e">
+         <source file="..\obj\USART.o" lastModified="151b481ba38"/>
+         <source file="..\obj\timer.o" lastModified="151b481b7c4"/>
+         <source file="..\obj\Gpio.o" lastModified="151b481b9da"/>
+         <source file="..\obj\Rcc.o" lastModified="151b481b831"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="151b481b96d"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="151b481b8e5"/>
+         <source file="..\obj\main.o" lastModified="151b481b8c5"/>
       </target>
    </processor>
 </history>

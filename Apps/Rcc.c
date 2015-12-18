@@ -7,6 +7,12 @@ void timerUnresetEnableClock(){
 	RCC_reg->APB1ENR |= 1;
 }
 
+void usartUnresetEnableClock(){
+	RCC_reg->APB2RSTR &= ~(1<<4);
+	RCC_reg->APB2ENR |= 1<<4;
+}
+
+
 
 void gpioUnresetEnableClock(GPIO* port){
 	int valToShift = ((int)port - (0x40020000))/(0x400);
