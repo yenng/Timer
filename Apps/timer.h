@@ -62,7 +62,22 @@ struct TIM_Type{
 #define RES_CLK_DIV		3<<8
 /****************************************************************/
 /************BITS OF capture/compare mode register 1*************/
-
+#define OCM1		~3
+#define OCM2		~(3<<8)
+#define OCM3		~3
+#define OCM4		~(3<<8)
+#define OUT_KEEP_LVL_1	0<<4
+#define OUT_LOW_1		4<<4
+#define OUT_HIGH_1		5<<4
+#define OUT_TOGGLE_1	3<<4
+#define OUT_MASK_1		~(7<<4)
+#define OUT_KEEP_LVL_2	0<<12
+#define OUT_LOW_2		4<<12
+#define OUT_HIGH_2		5<<12
+#define OUT_TOGGLE_2	3<<12
+#define OUT_MASK_2		~(7<<12)
+#define ENABLE_PRELOAD1 1<<3
+#define ENABLE_PRELOAD2 1<<11
 
 
 void configTIM(TIM_t* timer);
