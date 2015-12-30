@@ -29,6 +29,11 @@ struct TIM_Type{
 
 #define TIM2    	((TIM_t*)0x40000000)
 
+#define CH1			0
+#define CH2			1
+#define CH3			2
+#define CH4			3
+
 #define RESET		0x0000
 /*********BITS OF CONTROL REGISTER CR1************************/
 #define URS_ENABLE		(1<<2)
@@ -67,13 +72,13 @@ struct TIM_Type{
 #define OCM3		~3
 #define OCM4		~(3<<8)
 #define OUT_KEEP_LVL_1	0<<4
-#define OUT_LOW_1		4<<4
-#define OUT_HIGH_1		5<<4
+#define OUT_LOW_1		1<<4
+#define OUT_HIGH_1		2<<4
 #define OUT_TOGGLE_1	3<<4
 #define OUT_MASK_1		~(7<<4)
 #define OUT_KEEP_LVL_2	0<<12
-#define OUT_LOW_2		4<<12
-#define OUT_HIGH_2		5<<12
+#define OUT_LOW_2		1<<12
+#define OUT_HIGH_2		2<<12
 #define OUT_TOGGLE_2	3<<12
 #define OUT_MASK_2		~(7<<12)
 #define ENABLE_PRELOAD1 1<<3
@@ -86,5 +91,6 @@ void resetStatusRegisterFlag(TIM_t* timer);
 void enableEventGeneration(TIM_t* timer);
 void writeValueToCounter(uint32_t value, TIM_t* timer);
 void setPrescaler(uint32_t prescaler, TIM_t* timer);
+void writeValueToCCR( int value,TIM_t* timer);
 
 #endif // timer_H

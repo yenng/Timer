@@ -30,6 +30,8 @@ void configOutputCompare(TIM_t* timer){
 	timer->CCMR2 &= OUT_MASK_2 & OUT_MASK_1;
 	timer->CCMR1 |= OUT_LOW_1;
 	timer->CCMR2 |= OUT_HIGH_1;
+	TIM2->CCMR1 &= OUT_MASK_1 & OUT_MASK_2;
+	TIM2->CCMR2 &= OUT_MASK_1 & OUT_MASK_2;
 }
 
 void timerEnableDMA(TIM_t* timer){
@@ -38,6 +40,10 @@ void timerEnableDMA(TIM_t* timer){
 
 void resetStatusRegisterFlag(TIM_t* timer){
 	timer->SR = RESET;
+}
+
+void writeValueToCCR( int value,TIM_t* timer){
+	timer->CCR1 = value;
 }
 
 void enableEventGeneration(TIM_t* timer){

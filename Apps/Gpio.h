@@ -22,6 +22,23 @@ struct GPIO_t{
 	uint32_t AFRH;
 };
 
+#define AF0		0
+#define AF1		1
+#define AF2		2
+#define AF3		3
+#define AF4		4
+#define AF5		5
+#define AF6		6
+#define AF7		7
+#define AF8		8
+#define AF9		9
+#define AF10	10
+#define AF11	11
+#define AF12	12
+#define AF13	13
+#define AF14	14
+#define AF15	15
+
 #define PIN_0	0
 #define PIN_1	1
 #define PIN_2	2
@@ -75,5 +92,6 @@ void configureInput(int pullMeth, int pinNum, GPIO *port);
 void configureAnalog(int pullMeth, int pinNum, GPIO *port);
 void writeOne(uint16_t pinNum, GPIO *port);
 void writeZero(uint16_t pinNum, GPIO *port);
+void configureAltFunc(int pullMeth, int pinNum, GPIO *port, int AF);
 
 #endif	//__Gpio_H__

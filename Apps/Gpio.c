@@ -25,7 +25,7 @@ void configureAnalog(int pullMeth, int pinNum, GPIO *port){
  * @pinNum		is the pin number of the port
  * @port		is the port to configure
  */
-void configureAltFunc(int pullMeth, int pinNum, GPIO *port){
+void configureAltFunc(int pullMeth, int pinNum, GPIO *port, int AF){
 	gpioUnresetEnableClock(port);
 	port->MODER &= ~(3 << (pinNum*2));		//MASK MODER reg and CLEAR selected bits
 	port->MODER |= GPIO_MODE_ALTFUNC << (pinNum*2);
@@ -33,7 +33,7 @@ void configureAltFunc(int pullMeth, int pinNum, GPIO *port){
 	port->PUPDR |= pullMeth << (pinNum*2);
 	port->OSPEED &= ~(3 << (pinNum*2));
 	port->OSPEED |= GPIO_SPEED_V_HIGH << (pinNum*2);
-	port->AFRH |= (7 << 4);
+	port->AFRL = 0x00001111;
 }
 
 /**
