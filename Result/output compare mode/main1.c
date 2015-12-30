@@ -71,6 +71,11 @@ int main(void){
 	configureAltFunc(PULL_UP, PIN_3, PORTB, AF1);
 	configureAltFunc(PULL_UP, PIN_10, PORTB, AF1);
 	configureAltFunc(PULL_UP, PIN_3, PORTA, AF1);
+	TIM2->CCMR1 = 0b00001110000;
+	TIM2->CCMR1 |= OUT_HIGH_2;
+	TIM2->CCMR2 |= OUT_HIGH_2;
+	TIM2->CCMR2 |= OUT_HIGH_1;
+	x =TIM2->CCMR1;
 	TIM2->SR = 0x0000;
 //	while(1){
 //		while(TIM2->CNT > 0x10){

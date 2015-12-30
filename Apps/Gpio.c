@@ -34,6 +34,7 @@ void configureAltFunc(int pullMeth, int pinNum, GPIO *port, int AF){
 	port->OSPEED &= ~(3 << (pinNum*2));
 	port->OSPEED |= GPIO_SPEED_V_HIGH << (pinNum*2);
 	port->AFRL = 0x00001111;
+	port->AFRH = 0x00001111;
 }
 
 /**
