@@ -1,5 +1,4 @@
 #include "Gpio.h"
-
 /**
  * configureAnalog:
  *
@@ -15,7 +14,6 @@ void configureAnalog(int pullMeth, int pinNum, GPIO *port){
 	port->PUPDR &= ~(3 << (pinNum*2));		//MASK PUPDR reg and clear respective bits
 	port->PUPDR |= pullMeth << (pinNum*2);
 }
-
 /**
  * configureAltFunc:
  *

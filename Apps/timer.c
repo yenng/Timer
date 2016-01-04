@@ -13,24 +13,26 @@ void configTIM(TIM_t* timer){
 	timer->DIER = 31;		//enable all interrupt enable
 }
 
-void configInputCapture(TIM_t* timer){
-	timer->CCMR1 = RESET;
-	timer->CCMR1 = 1;
+void configInputCapture(TIM_t* timer, int CH){
+	timer->CCMR1 &= ICM_MASK<<(8*(CH-1));
+	timer->CCMR1 |= ICM_TI1<<(8*(CH-1));
+	timer->CCMR1 &= ICF_MASK<<(12-(8*(CH%2)));
+	timer->CCMR1 |= 3<<(12-(8*(CH%2)));
+	timer->CCER  = RESET;
+	timer->CCER	 |= (EDGE_RISE<<(1+4*(CH-1)))|(CCE_EN<<4*(CH-1));
+	
 }
 
 void configOutputCompare(TIM_t* timer){
 	timer->CCMR1 = RESET;
 	timer->CCMR2 = RESET;
 	timer->CCER = RESET;
-	timer->CCER = 0x1111;			//enable OC1 OC2 OC3 OC4
+	timer->CCER |= EN_OC1 | EN_OC2| EN_OC3| EN_OC4;			//enable OC1 OC2 OC3 OC4
 	timer->CCMR1 |= OCM1;
 	timer->CCMR1 |= OCM2;
 	timer->CCMR2 |= OCM3;
 	timer->CCMR2 |= OCM4;
-}
-
-void timerEnableDMA(TIM_t* timer){
-
+	timer->CCMR1 |= 7<<4;	//channel 1 is in PWM mode 2.
 }
 
 void resetStatusRegisterFlag(TIM_t* timer){

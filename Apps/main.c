@@ -3,7 +3,7 @@
 #include "Rcc.h"
 #include "Gpio.h"
 
-uint32_t value = 0X0000;
+uint32_t counterValue = 0X0000;
 uint32_t prescaler = 0X0002;
 uint32_t preloadValue = 0x0200;
 
@@ -17,6 +17,7 @@ void testOCMmanually(){
 	//else
 		//TIM2->CCMR1 |= OUT_LOW_1;
 }
+//function used to trigger output pin
 int triggerOutputPin(int counterTrig){
 	counterTrig = !counterTrig;
 	if(counterTrig == 1)
@@ -26,40 +27,33 @@ int triggerOutputPin(int counterTrig){
 	return counterTrig;
 }
 
-int testARRchangesWithBuffer(){
+//this function used to investigate the counter,
+// by triggering the output pin manually
+int testCounter(){
 	//setting of TIM->CR1
-	//timer->CR1 = CNT_ENABLE | URS_ENABLE | UDIS_DISABLE | NO_BUFFERED | COUNTUP | EDGE | NO_ONE_PULSE | DIV_1;
 	int counterTrig = 0;
 	uint32_t counterValue;
 	uint32_t ARRValue = preloadValue;
 	while(1){
-		while(ARRValue == 63){
-			while(TIM2->CNT < 63){
-				if(TIM2->CNT == 50)
-					ARRValue = 0x00FF;
-				counterValue = TIM2->CNT;
-			}
+		if(TIM2->CNT == preloadValue)
 			counterTrig = triggerOutputPin(counterTrig);
-		}
-		writeValueToPreloadRegister(ARRValue, TIM2);
-		if(ARRValue == 255){
-			while(TIM2->CNT < 255){
-				counterValue = TIM2->CNT;}
-			counterTrig = triggerOutputPin(counterTrig);
-		}
 	}
+}
+
+int getInputCaptureValue(){
+	int CCR2 = TIM2->CCR2;
 }
 
 int main(void){
 	//config timer
 	configTIM(TIM2);
 	resetStatusRegisterFlag(TIM2);
-	writeValueToCounter(value, TIM2);
+	writeValueToCounter(counterValue, TIM2);
 	setPrescaler(prescaler, TIM2);
 	writeValueToPreloadRegister(preloadValue, TIM2);
 	writeValueToCCR(0x50,TIM2);
 	configOutputCompare(TIM2);
-	int x =TIM2->CCMR1;
+	configInputCapture(TIM2, CH2);
 
 
 	//config GPIO
@@ -72,12 +66,9 @@ int main(void){
 	configureAltFunc(PULL_UP, PIN_10, PORTB, AF1);
 	configureAltFunc(PULL_UP, PIN_3, PORTA, AF1);
 	TIM2->SR = 0x0000;
-//	while(1){
-//		while(TIM2->CNT > 0x10){
-//			TIM2->CCMR1 |= OUT_LOW_1;
-//		}
-//		TIM2->CCMR1 |= OUT_HIGH_1;
-//	}
+	while(1){
+		getInputCaptureValue();
+	}
 		//testARRchangesWithBuffer();
 		//TIM2->CCMR1 |= OUT_HIGH_1;
 		//testOCMmanually();

@@ -29,13 +29,13 @@ struct TIM_Type{
 
 #define TIM2    	((TIM_t*)0x40000000)
 
-#define CH1			0
-#define CH2			1
-#define CH3			2
-#define CH4			3
+#define CH1			1
+#define CH2			2
+#define CH3			3
+#define CH4			4
 
 #define RESET		0x0000
-/*********BITS OF CONTROL REGISTER CR1************************/
+//BITS OF CONTROL REGISTER CR1
 #define URS_ENABLE		(1<<2)
 #define CNT_ENABLE		1
 #define UDIS_DISABLE	0
@@ -65,9 +65,9 @@ struct TIM_Type{
 #define	DIV_2		1<<8
 #define	DIV_4		2<<8
 #define RES_CLK_DIV		3<<8
-/****************************************************************/
 
-/************BITS OF output compare mode register 1**************/
+
+//BITS OF output compare mode register 1
 #define OCM1		~3
 #define OCM2		~(3<<8)
 #define OCM3		~3
@@ -84,14 +84,27 @@ struct TIM_Type{
 #define OUT_MASK_2		~(7<<12)
 #define ENABLE_PRELOAD1 1<<3
 #define ENABLE_PRELOAD2 1<<11
+#define EN_OC4		1<<12
+#define EN_OC3		1<<8
+#define EN_OC2		1<<4
+#define EN_OC1		1
 
-/***********BITS of input capture mode register******************************/
+//BITS of input capture mode register
 #define ICM_TI1		1
 #define ICM_TI2		2
 #define ICM_TRC		3
+#define ICM_MASK	~3
 
+#define ICF_MASK	~15
+#define	EDGE_RISE	0
+#define	EDGE_FALL	1
+#define	EDGE_BOTH	5
+
+#define CCE_EN		1
+#define CCE_DIS		0
 
 void configTIM(TIM_t* timer);
+void configInputCapture(TIM_t* timer, int CH);
 void timerEnableDMA(TIM_t* timer);
 void resetStatusRegisterFlag(TIM_t* timer);
 void enableEventGeneration(TIM_t* timer);

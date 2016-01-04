@@ -16,6 +16,7 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="7"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
@@ -26,33 +27,37 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/D203C-01/Desktop/yen/Timer/Apps/main.c" title="main.c" tooltip="C:/Users/D203C-01/Desktop/yen/Timer/Apps/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1923" selectionTopPixel="704"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Rcc.h" partName="Rcc.h" path="C:/Users/D203C-01/Desktop/yen/Timer/Apps/Rcc.h" title="Rcc.h" tooltip="C:/Users/D203C-01/Desktop/yen/Timer/Apps/Rcc.h" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Rcc.h" partName="Rcc.h" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Rcc.h" title="Rcc.h" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Rcc.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/Rcc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1394" selectionTopPixel="254"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1328" selectionTopPixel="401"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" partName="timer.c" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/timer.c" title="timer.c" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/timer.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="timer.c" partName="timer.c" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/timer.c" title="timer.c" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/timer.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/timer.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="412" selectionTopPixel="59"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1046" selectionTopPixel="420"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="timer.h" partName="timer.h" path="C:/Users/D203C-01/Desktop/yen/Timer/Apps/timer.h" title="timer.h" tooltip="C:/Users/D203C-01/Desktop/yen/Timer/Apps/timer.h" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="timer.h" partName="timer.h" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/timer.h" title="timer.h" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/timer.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/timer.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1917" selectionTopPixel="884"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1353" selectionTopPixel="1170"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.h" partName="Gpio.h" path="C:/Users/D203C-01/Desktop/yen/Timer/Apps/Gpio.h" title="Gpio.h" tooltip="C:/Users/D203C-01/Desktop/yen/Timer/Apps/Gpio.h" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.h" partName="Gpio.h" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Gpio.h" title="Gpio.h" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Gpio.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/Gpio.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="299"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1750" selectionTopPixel="1088"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" partName="Gpio.c" path="C:/Users/D203C-01/Desktop/yen/Timer/Apps/Gpio.c" title="Gpio.c" tooltip="C:/Users/D203C-01/Desktop/yen/Timer/Apps/Gpio.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" partName="Gpio.c" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Gpio.c" title="Gpio.c" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Gpio.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/Gpio.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1314" selectionTopPixel="359"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2589" selectionTopPixel="1252"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" partName="startup_stm32f429xx.s" path="C:/Users/D203C-01/Desktop/yen/Timer/Config/startup_stm32f429xx.s" title="startup_stm32f429xx.s" tooltip="C:/Users/D203C-01/Desktop/yen/Timer/Config/startup_stm32f429xx.s" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Config/startup_stm32f429xx.s"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3665" selectionTopPixel="1005"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Rcc.c" partName="Rcc.c" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Rcc.c" title="Rcc.c" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/Rcc.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/Rcc.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Yen/Desktop/peripheral/Timer/Apps/main.c" title="main.c" tooltip="C:/Users/Yen/Desktop/peripheral/Timer/Apps/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Timer/Apps/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="397" selectionTopPixel="420"/>
 </editor>
 </editors>
 <views>
@@ -65,7 +70,7 @@
 <element path="/Timer/Core"/>
 </expanded>
 <selection>
-<element path="/Timer/Apps/Gpio.c"/>
+<element path="/Timer/Apps/Rcc.c"/>
 </selection>
 </viewState>
 </view>
@@ -88,8 +93,8 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.coocox.builder.perspective.CoBuilder">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.welcome.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -110,27 +115,37 @@
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
 <hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
-<view id="org.coocox.builder.ui.views.ProjectView"/>
-<view id="org.coocox.component.ui.view.ComponentView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="org.eclipse.ui.internal.ViewStack@325cc6" orientation="512" selectedTabId="org.coocox.builder.ui.views.ProjectView" style="1">
+<fastViews>
+<view id="org.coocox.builder.ui.views.ProjectView" ratio="0.3"/>
+<view id="org.coocox.component.ui.view.ComponentView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@182dd2" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@68ddba" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@325cc6">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<page content="org.coocox.component.ui.view.ComponentView" label="Component View"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.coocox.builder.ui.views.ProjectView" label="LabelNotFound"/>
+<page content="org.coocox.component.ui.view.ComponentView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@325cc6">
@@ -139,23 +154,19 @@
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@182dd2" ratio="0.69977427" ratioLeft="620" ratioRight="266" relationship="4" relative="org.eclipse.ui.internal.ViewStack@325cc6">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@182dd2" ratio="0.6485623" ratioLeft="406" ratioRight="220" relationship="4" relative="org.eclipse.ui.internal.ViewStack@325cc6">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.21933962" ratioLeft="279" ratioRight="993" relationship="2" relative="org.eclipse.ui.internal.ViewStack@325cc6"/>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@68ddba" ratio="0.71903324" ratioLeft="714" ratioRight="279" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@68ddba" ratio="0.90121156" ratioLeft="967" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -211,49 +222,34 @@
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <fastViewBars/>
 <viewLayoutRec closeable="false" id="org.eclipse.debug.ui.DebugView"/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ea4d2d">
-<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.ui.internal.ViewStack@1ea4d2d">&#x0A;<folder activePageID="org.coocox.builder.ui.views.ProjectView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.builder.ui.views.ProjectView" label="Project"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@126d8d3" ratio="0.69977427" ratioLeft="620" ratioRight="266" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@126d8d3" ratio="0.69977427" ratioLeft="620" ratioRight="266" relationship="4" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@190e09e" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.internal.ViewStack@126d8d3">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@190e09e" ratio="0.5" ratioLeft="636" ratioRight="636" relationship="2" relative="org.eclipse.ui.internal.ViewStack@126d8d3">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.coocox.codebugger.trace.ui.traceview" label="Semihosting"/>
 <page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.MemoryView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@3b0976" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3b0976" ratio="0.75" ratioLeft="954" ratioRight="318" relationship="2" relative="org.eclipse.ui.internal.ViewStack@1ea4d2d">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.coocox.coassistant.view.CoAssistantView_debug" label="LabelNotFound"/>
@@ -268,163 +264,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/timer.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Timer/Config/startup_stm32f429xx.s"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/Timer/Config/startup_stm32f429xx.s"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Rcc.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Gpio.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/timer.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Rcc.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Gpio.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Rcc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Timer/Apps/Gpio.c"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="556" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1264" y="0"/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="628" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="634" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1925" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1716" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2158" y="0"/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="337" y="40"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="2">
-<position info="not_deleted" x="4439" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1716" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1776" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1925" y="0"/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="978" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1264" y="0"/>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="2108" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="Rcc.h" index="3">
+<position info="not_deleted" x="1394" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1515" y="0"/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="978" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="3">
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="175" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1264" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="startup_stm32f429xx.s" index="3">
-<position info="not_deleted" x="3665" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1264" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1466" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="462" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="486" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="510" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1466" y="0"/>
-</item>
-<item historyLabel="Rcc.h" index="4">
+<item historyLabel="Rcc.h" index="3">
 <position info="not_deleted" x="1394" y="0"/>
 </item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="510" y="0"/>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="533" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="584" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="608" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="632" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="656" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position/>
-</item>
-<item historyLabel="Rcc.h" index="4">
+<item historyLabel="Rcc.h" index="3">
 <position info="not_deleted" x="1394" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1466" y="0"/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="978" y="0"/>
 </item>
-<item historyLabel="Rcc.h" index="4">
-<position info="not_deleted" x="1394" y="0"/>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="15" y="0"/>
 </item>
-<item historyLabel="timer.c" index="1">
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="978" y="0"/>
+</item>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="15" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Rcc.h" index="3">
+<position info="not_deleted" x="1328" y="0"/>
+</item>
+<item historyLabel="Rcc.c" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="978" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Gpio.c" index="6">
+<position info="not_deleted" x="2589" y="0"/>
+</item>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="1818" y="0"/>
+</item>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="1202" y="57"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="1818" y="0"/>
+</item>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="1202" y="57"/>
+</item>
+<item historyLabel="Gpio.c" index="6">
+<position info="not_deleted" x="2589" y="0"/>
+</item>
+<item historyLabel="Gpio.h" index="4">
+<position info="not_deleted" x="1750" y="0"/>
+</item>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="1818" y="0"/>
+</item>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="1202" y="57"/>
+</item>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="871" y="7"/>
+</item>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="250" y="0"/>
+</item>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="1353" y="0"/>
+</item>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="timer.c" index="0">
 <position/>
 </item>
-<item historyLabel="Rcc.h" index="4">
-<position info="not_deleted" x="1394" y="0"/>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="1353" y="0"/>
 </item>
-<item historyLabel="timer.c" index="1">
-<position/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="1050" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2064" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1124" y="0"/>
 </item>
-<item historyLabel="startup_stm32f429xx.s" index="3">
-<position info="not_deleted" x="3665" y="0"/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="1051" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1264" y="0"/>
+<item historyLabel="timer.h" index="1">
+<position info="not_deleted" x="1353" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="974" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1466" y="0"/>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
+<item historyLabel="timer.c" index="0">
+<position info="not_deleted" x="974" y="0"/>
 </item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1909" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position/>
-</item>
-<item historyLabel="Gpio.c" index="5">
-<position info="not_deleted" x="1314" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1923" y="0"/>
-</item>
-<item historyLabel="timer.c" index="1">
-<position info="not_deleted" x="575" y="0"/>
-</item>
-<item historyLabel="timer.h" index="6">
-<position info="not_deleted" x="1917" y="0"/>
-</item>
-<item active="true" historyLabel="timer.c" index="1">
-<position info="not_deleted" x="599" y="0"/>
+<item active="true" historyLabel="main.c" index="2">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -433,14 +429,14 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Rcc.c" tooltip="Timer/Apps/Rcc.c">
+<persistable path="/Timer/Apps/Rcc.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Timer/main.c">
 <persistable path="/Timer/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f429xx.s" tooltip="Timer/Config/startup_stm32f429xx.s">
 <persistable path="/Timer/Config/startup_stm32f429xx.s"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Rcc.c" tooltip="Timer/Apps/Rcc.c">
-<persistable path="/Timer/Apps/Rcc.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Gpio.c" tooltip="Timer/Apps/Gpio.c">
 <persistable path="/Timer/Apps/Gpio.c"/>

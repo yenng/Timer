@@ -93,5 +93,4 @@ void configureAnalog(int pullMeth, int pinNum, GPIO *port);
 void writeOne(uint16_t pinNum, GPIO *port);
 void writeZero(uint16_t pinNum, GPIO *port);
 void configureAltFunc(int pullMeth, int pinNum, GPIO *port, int AF);
-
 #endif	//__Gpio_H__
